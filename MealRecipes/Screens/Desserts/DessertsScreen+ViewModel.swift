@@ -5,6 +5,7 @@ import Foundation
 extension DessertsScreen {
     
     @Observable
+    @MainActor
     class ViewModel {
         
         enum DataState {

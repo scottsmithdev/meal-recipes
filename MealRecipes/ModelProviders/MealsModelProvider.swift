@@ -2,7 +2,7 @@
 
 import Foundation
 
-protocol MealsModelProviding {
+protocol MealsModelProviding: Sendable {
     func fetchAllDesserts() async -> [Meal]?
     func fetchRecipe(forID id: String) async -> Recipe?
 }

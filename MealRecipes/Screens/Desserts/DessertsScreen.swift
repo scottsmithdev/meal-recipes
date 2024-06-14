@@ -2,6 +2,7 @@
 
 import SwiftUI
 
+@MainActor
 struct DessertsScreen: View {
 
     @State private var viewModel = ViewModel()

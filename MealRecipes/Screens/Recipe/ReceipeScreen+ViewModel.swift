@@ -5,6 +5,7 @@ import Foundation
 extension RecipeScreen {
     
     @Observable
+    @MainActor
     class ViewModel {
         
         enum DataState {
